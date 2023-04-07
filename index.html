@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,12 +16,24 @@
     <link rel="stylesheet" href="/css/style.css" />
     <title>Numero Magico</title>
   </head>
-  <body>
+  <body class="bg-primary">
+      <header></header>
+    <main>
+      <h1 class="text-center py-2" >Numero Magico</h1>
+      <h3 class="text-center pb-2">Ingresar un numero del 1 al 10 para jugar</h3>
+      <h6 class="text-center pb-2">Cada vez que falles el numero magico cambiara elije con sabiduria!</h6>
+      <article class="container d-flex justify-content-center">
+        <input type="number" placeholder="poner un numero" id="inputText">
+      <button type="submit" id="subir">Adivinar</button>
+      <button type="button" id="limpiar">Limpiar Input</button>
+      </article>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
     <script src="/js/app.js"></script>
+    <footer></footer>
   </body>
 </html>
